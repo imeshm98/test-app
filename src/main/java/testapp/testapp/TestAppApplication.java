@@ -8,14 +8,12 @@ public class TestAppApplication {
 
 	public static void main(String[] args) {
 
-		int x = 1;
+		int number = 10;
 
-		if(x == 0){
-			System.out.println("Result is 0");
-		} else if(x == 1){
-			System.out.println("Result is 1");
-		} else if(x == 2){
-			System.out.println("Result is 2");
+		if (number < 5) {
+		    System.out.println("Number is less than 5");
+		} else if (number < 10) {
+		    System.out.println("Number is between 5 and 9");
 		}
 	}
 
