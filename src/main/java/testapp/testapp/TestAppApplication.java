@@ -8,13 +8,13 @@ public class TestAppApplication {
 
 	public static void main(String[] args) {
 
-		int x =1;
+		int x = 1;
 
-		if(x==0){
+		if(x == 0){
 			System.out.println("Result is 0");
-		} else if(x==1){
+		} else if(x == 1){
 			System.out.println("Result is 1");
-		} else if(x==2){
+		} else if(x == 2){
 			System.out.println("Result is 2");
 		}
 	}
